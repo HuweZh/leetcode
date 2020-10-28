@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b080d90-92aa-4b42-abae-5b41cf6ff8e7" name="Default Changelist" comment="" />
+    <list default="true" id="5b080d90-92aa-4b42-abae-5b41cf6ff8e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/S226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新建文本文档.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603898688546</updated>
-      <workItem from="1603898689975" duration="1604000" />
+      <workItem from="1603898689975" duration="2381000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1603899019747</created>
