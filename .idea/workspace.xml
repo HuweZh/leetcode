@@ -50,7 +50,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.20341393" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603898688546</updated>
       <workItem from="1603898689975" duration="2789000" />
-      <workItem from="1603970649741" duration="1717000" />
+      <workItem from="1603970649741" duration="1958000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1603899019747</created>
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603901159339</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="M129">
+      <created>1603972394479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603972394479</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +128,7 @@
     <MESSAGE value="第一次提交" />
     <MESSAGE value="Revert &quot;第一次提交&quot;&#10;&#10;This reverts commit 303e215f" />
     <MESSAGE value="测试测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试测试" />
+    <MESSAGE value="M129" />
+    <option name="LAST_COMMIT_MESSAGE" value="M129" />
   </component>
 </project>
