@@ -75,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603898688546</updated>
       <workItem from="1603898689975" duration="2789000" />
+      <workItem from="1603970649741" duration="1717000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1603899019747</created>
@@ -108,7 +109,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
