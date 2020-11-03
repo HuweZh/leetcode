@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.S941">
     <configuration name="M139" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huhusw.M139" />
       <module name="leetcode" />
@@ -79,8 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="S941" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.S941" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huhusw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.S941" />
         <item itemvalue="Application.M139" />
       </list>
     </recent_temporary>
@@ -97,7 +111,10 @@
       <updated>1603898688546</updated>
       <workItem from="1603898689975" duration="2789000" />
       <workItem from="1603970649741" duration="2966000" />
-      <workItem from="1604242385092" duration="2723000" />
+      <workItem from="1604242385092" duration="3430000" />
+      <workItem from="1604331036579" duration="1348000" />
+      <workItem from="1604386890042" duration="6000" />
+      <workItem from="1604413535758" duration="1320000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1603899019747</created>
@@ -166,5 +183,16 @@
     <MESSAGE value="测试测试" />
     <MESSAGE value="M129" />
     <option name="LAST_COMMIT_MESSAGE" value="M129" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/S941.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
