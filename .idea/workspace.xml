@@ -65,7 +65,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.S941">
+  <component name="RunManager" selected="Application.H57">
+    <configuration name="H57" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.H57" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huhusw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="M139" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huhusw.M139" />
       <module name="leetcode" />
@@ -94,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.H57" />
         <item itemvalue="Application.S941" />
         <item itemvalue="Application.M139" />
       </list>
@@ -114,7 +128,8 @@
       <workItem from="1604242385092" duration="3430000" />
       <workItem from="1604331036579" duration="1348000" />
       <workItem from="1604386890042" duration="6000" />
-      <workItem from="1604413535758" duration="1320000" />
+      <workItem from="1604413535758" duration="1783000" />
+      <workItem from="1604499482196" duration="3421000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1603899019747</created>
@@ -194,5 +209,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="intervals[2][1]" />
+        <watch expression="insert[1][1]" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
