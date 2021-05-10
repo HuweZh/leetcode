@@ -1,5 +1,7 @@
 package com.huhusw.middle;
 
+import com.huhusw.TreeNode;
+
 import java.util.*;
 
 /**
@@ -8,18 +10,6 @@ import java.util.*;
  * @create 2020-12-22 23:53
  */
 
-
-class TreeNode {
-
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-
-}
 
 public class M103 {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {

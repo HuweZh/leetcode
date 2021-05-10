@@ -1,5 +1,6 @@
 package com.huhusw.middle;
 
+import com.huhusw.TreeNode;
 import sun.reflect.generics.tree.Tree;
 
 import java.util.LinkedList;
@@ -8,16 +9,6 @@ import java.util.Queue;
 public class M222 {
     public static void main(String[] args) {
 
-    }
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
     }
 
     public int countNodes(TreeNode root) {
