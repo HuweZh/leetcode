@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d8968f8-3824-41b8-9021-cff6d6fef68a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/M738.java" afterDir="false" />
+    <list default="true" id="7d8968f8-3824-41b8-9021-cff6d6fef68a" name="Default Changelist" comment="H810">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,22 +62,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.M738">
-    <configuration name="M49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huhusw.M49" />
+  <component name="RunManager" selected="Application.M274">
+    <configuration name="M1049" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.middle.M1049" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huhusw.*" />
+          <option name="PATTERN" value="com.huhusw.middle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huhusw.M62" />
+    <configuration name="M1711" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.middle.M1711" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huhusw.*" />
+          <option name="PATTERN" value="com.huhusw.middle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M649" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huhusw.M649" />
+    <configuration name="M274" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.middle.M274" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huhusw.*" />
+          <option name="PATTERN" value="com.huhusw.middle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M738" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huhusw.M738" />
+    <configuration name="M494" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.middle.M494" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huhusw.*" />
+          <option name="PATTERN" value="com.huhusw.middle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S217" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huhusw.S217" />
+    <configuration name="M981" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.middle.M981" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huhusw.*" />
+          <option name="PATTERN" value="com.huhusw.middle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.M738" />
-        <item itemvalue="Application.M49" />
-        <item itemvalue="Application.S217" />
-        <item itemvalue="Application.M649" />
-        <item itemvalue="Application.M62" />
+        <item itemvalue="Application.M274" />
+        <item itemvalue="Application.M981" />
+        <item itemvalue="Application.M1711" />
+        <item itemvalue="Application.M1049" />
+        <item itemvalue="Application.M494" />
       </list>
     </recent_temporary>
   </component>
@@ -198,8 +199,110 @@
       <workItem from="1607959101530" duration="2334000" />
       <workItem from="1608043619726" duration="3937000" />
       <workItem from="1608218925764" duration="1381000" />
-      <workItem from="1608303042043" duration="860000" />
+      <workItem from="1608303042043" duration="1831000" />
+      <workItem from="1608359040718" duration="24000" />
+      <workItem from="1608391727483" duration="1489000" />
+      <workItem from="1608564717190" duration="2834000" />
+      <workItem from="1608652357855" duration="1179000" />
+      <workItem from="1619231147270" duration="3008000" />
+      <workItem from="1619333217745" duration="2594000" />
+      <workItem from="1619413581465" duration="3903000" />
+      <workItem from="1619536815156" duration="2798000" />
+      <workItem from="1619663316130" duration="3353000" />
+      <workItem from="1619749051440" duration="962000" />
+      <workItem from="1620562090839" duration="4520000" />
+      <workItem from="1620746541169" duration="1079000" />
+      <workItem from="1620786828543" duration="2616000" />
+      <workItem from="1620872402753" duration="7286000" />
+      <workItem from="1621488184117" duration="2959000" />
+      <workItem from="1621649301258" duration="747000" />
+      <workItem from="1622602510592" duration="1668000" />
+      <workItem from="1622787796417" duration="2161000" />
+      <workItem from="1623033587207" duration="5205000" />
+      <workItem from="1624241367374" duration="2500000" />
+      <workItem from="1624460543263" duration="955000" />
+      <workItem from="1625654156404" duration="3144000" />
+      <workItem from="1625712430731" duration="2301000" />
+      <workItem from="1625930442258" duration="7896000" />
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1608567523096</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608567523096</updated>
+    </task>
+    <task id="LOCAL-00002" summary="不知道第几次提交">
+      <created>1619333655157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619333655157</updated>
+    </task>
+    <task id="LOCAL-00003" summary="调整项目的文件结构">
+      <created>1619413878162</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619413878162</updated>
+    </task>
+    <task id="LOCAL-00004" summary="提交">
+      <created>1619419381884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619419381884</updated>
+    </task>
+    <task id="LOCAL-00005" summary="提交">
+      <created>1619579287167</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619579287167</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改内部类">
+      <created>1620626316803</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620626316803</updated>
+    </task>
+    <task id="LOCAL-00007" summary="再次提交">
+      <created>1620873323355</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620873323355</updated>
+    </task>
+    <task id="LOCAL-00008" summary="提交">
+      <created>1620966843718</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620966843718</updated>
+    </task>
+    <task id="LOCAL-00009" summary="提交">
+      <created>1621490907795</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621490907796</updated>
+    </task>
+    <task id="LOCAL-00010" summary="H810">
+      <created>1621649450280</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621649450280</updated>
+    </task>
+    <task id="LOCAL-00011" summary="再次提交">
+      <created>1623036254562</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623036254562</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,53 +320,67 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="不知道第几次提交" />
+    <MESSAGE value="调整项目的文件结构" />
+    <MESSAGE value="修改内部类" />
+    <MESSAGE value="提交" />
+    <MESSAGE value="H810" />
+    <MESSAGE value="再次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="再次提交" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/com/huhusw/S206.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/com/huhusw/M92.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/com/huhusw/M425.java</url>
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/middle/M425.java</url>
           <line>10</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/com/huhusw/M18.java</url>
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/middle/M18.java</url>
           <line>10</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/com/huhusw/S493.java</url>
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/simple/S493.java</url>
           <line>9</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/com/huhusw/M649.java</url>
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/middle/M649.java</url>
           <line>13</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/com/huhusw/S217.java</url>
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/simple/S217.java</url>
           <line>8</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/com/huhusw/M49.java</url>
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/middle/M49.java</url>
           <line>7</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/com/huhusw/M738.java</url>
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/middle/M738.java</url>
           <line>5</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/middle/M633.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/middle/M633.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/middle/M1049.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
