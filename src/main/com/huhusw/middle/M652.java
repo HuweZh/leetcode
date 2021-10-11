@@ -20,6 +20,12 @@ public class M652 {
         return res;
     }
 
+    /**
+     * 辅助函数，构造子树的表示，并更新中间变量和结果
+     *
+     * @param root 子树的根节点
+     * @return 每颗子树的表示
+     */
     private String traverse(TreeNode root) {
         //对于空节点使用一个特殊的符号来代替
         if (root == null) {

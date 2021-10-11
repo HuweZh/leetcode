@@ -23,11 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d8968f8-3824-41b8-9021-cff6d6fef68a" name="Default Changelist" comment="H810">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/huhusw/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/huhusw/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/huhusw/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/huhusw/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/huhusw/middle/M92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/huhusw/middle/M92.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/huhusw/simple/S226.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/huhusw/simple/S226.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/huhusw/middle/M652.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/huhusw/middle/M652.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +263,7 @@
       <workItem from="1632881984032" duration="1535000" />
       <workItem from="1633675002402" duration="3334000" />
       <workItem from="1633781709271" duration="4992000" />
-      <workItem from="1633919764784" duration="855000" />
+      <workItem from="1633919764784" duration="1327000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1608567523096</created>
@@ -353,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625985958728</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="提交多个文件">
+      <created>1633922634209</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1633922634209</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +381,8 @@
     <MESSAGE value="H810" />
     <MESSAGE value="再次提交" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="提交多个文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交多个文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
