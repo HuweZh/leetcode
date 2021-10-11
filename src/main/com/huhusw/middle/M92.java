@@ -48,12 +48,68 @@ public class M92 {
             curr = stem;
             n--;
         }
-        if(tail!=null){
+        if (tail != null) {
             tail.next = prev;
-        }else {
+        } else {
             head = prev;
         }
         cont.next = curr;
+        return head;
+    }
+
+    /**
+     * 反转以head为头节点的链表
+     *
+     * @param head 头节点
+     * @return 反转后链表的头节点
+     */
+    ListNode reverse(ListNode head) {
+        //跳出递归
+        if (head.next == null) {
+            return head;
+        }
+        ListNode last = reverse(head.next);
+
+        //设置反转，假设head后面的链表已经全部反转，这里修改最后一个节点的反转指向
+        head.next.next = head;
+        //设置尾节点的下一个为null
+        head.next = null;
+        return last;
+    }
+
+    /**
+     * 反转以head为头节点的前n个节点
+     *
+     * @param head 头节点
+     * @param n    前n个节点
+     * @return 返回反转后链表的头节点
+     */
+    //后驱节点，即第n+1个节点
+    ListNode nextNode = null;
+
+    ListNode reverseN(ListNode head, int n) {
+        //最后一次递归
+        if (n == 1) {
+            //记录第n+1个节点
+            nextNode = head.next;
+            return head;
+        }
+        //开始递归
+        ListNode last = reverseN(head.next, n - 1);
+        //反转前n个节点
+        head.next.next = head;
+        //最后一次指向后驱节点
+        head.next = nextNode;
+        return last;
+    }
+
+    ListNode reverseBetween1(ListNode head, int m, int n) {
+        //相当于直接反转当前链表的前n-m个元素
+        if (m == 1) {
+            return reverseN(head, n);
+        }
+        //往后移动，直到触发反转前n个函数的条件
+        head.next = reverseBetween1(head.next, m - 1, n - 1);
         return head;
     }
 }
