@@ -13,31 +13,51 @@ import java.util.*;
 
 public class M103 {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+        //边界条件
         if (root == null) {
-            return null;
+            return new ArrayList<>();
         }
-        List<List<Integer>> result = new LinkedList<List<Integer>>();
-        boolean flag = false;
-        Deque<TreeNode> temp = new LinkedList<TreeNode>();
-        temp.add(root);
-        while (temp != null) {
-            int size = temp.size();
-            List<Integer> stem = new ArrayList<>();
-            for (int i = 0; i < size; i++) {
-                //从左到右
-                if (flag) {
-                    TreeNode treeNode = temp.pollLast();
-                    if(treeNode.left!=null){
-                        stem.add(treeNode.left.val);
+        // 返回值
+        List<List<Integer>> res = new ArrayList<>();
+        //存储目前这一层的节点
+        Deque<TreeNode> queue = new LinkedList<>();
+        //加入目前的节点
+        queue.add(root);
+        //临时存储当前层的节点值
+        Deque<Integer> r = new LinkedList<>();
+        //记录当前层有多少个节点在队列中，初始值为1
+        int count = 1;
+        //确定层数的变化
+        boolean isRight2Left = false;
+        while (!queue.isEmpty()) {
+            //当前层的所有节点都被弹出时
+            if (count == 0) {
+                //重新获取当前层的节点数量
+                count = queue.size();
+                //保存上一层的结果
+                res.add(new ArrayList<>(r));
+                r.clear();
+                isRight2Left = !isRight2Left;
+            }
+            //弹出目前的节点，然后存储值和他的左右节点
+            TreeNode stem = queue.poll();
+            count--;
+            //根据层数变化，确定添加顺序
+            if (isRight2Left) {
+                r.offerFirst(stem.val);
+            } else {
+                r.offerLast(stem.val);
+            }
 
-                    }
-                }
-                //从右到左
-                else {
-                    TreeNode treeNode = temp.pollFirst();
-                }
+            if (stem.left != null) {
+                queue.add(stem.left);
+            }
+            if (stem.right != null) {
+                queue.add(stem.right);
             }
         }
-        return null;
+        //最后一层不会执行到count的地方
+        res.add(new ArrayList<>(r));
+        return res;
     }
 }
