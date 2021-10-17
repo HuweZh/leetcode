@@ -11,9 +11,9 @@ public class M117 {
     Queue<Character> queue = new PriorityQueue<>(new Comparator<Character>() {
         @Override
         public int compare(Character o1, Character o2) {
-            return
+            return o1-o2;
         }
-    })
+    });
     //下一层的节点
     Node next = null;
     //下一层的起始节点
