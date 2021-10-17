@@ -146,15 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -265,7 +263,10 @@
       <workItem from="1633781709271" duration="4992000" />
       <workItem from="1633919764784" duration="2027000" />
       <workItem from="1634133021743" duration="4304000" />
-      <workItem from="1634213363024" duration="2377000" />
+      <workItem from="1634213363024" duration="3344000" />
+      <workItem from="1634275467473" duration="1866000" />
+      <workItem from="1634439652612" duration="606000" />
+      <workItem from="1634459767893" duration="2148000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1608567523096</created>
@@ -372,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634138664729</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="107">
+      <created>1634224828530</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1634224828530</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +407,8 @@
     <MESSAGE value="提交" />
     <MESSAGE value="提交多个文件" />
     <MESSAGE value="102+103" />
-    <option name="LAST_COMMIT_MESSAGE" value="102+103" />
+    <MESSAGE value="107" />
+    <option name="LAST_COMMIT_MESSAGE" value="107" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
