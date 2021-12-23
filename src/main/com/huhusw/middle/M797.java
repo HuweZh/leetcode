@@ -1,6 +1,7 @@
 package com.huhusw.middle;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class M797 {
@@ -71,5 +72,50 @@ public class M797 {
             recursion1(n, graph[indexOfNode][i], graph);
             stem.remove(stem.size() - 1);
         }
+    }
+
+    //返回结果
+    List<List<Integer>> res2 = new ArrayList<>();
+
+    /**
+     * 从0到n-1节点中所有可能的路径
+     *
+     * @param graph 邻接表
+     * @return 路径的集合
+     */
+    public List<List<Integer>> allPathsSourceTarget2(int[][] graph) {
+        //存储路径
+        LinkedList<Integer> path = new LinkedList<>();
+        //遍历路径
+        traverse(graph, 0, path);
+        //返回结果
+        return res2;
+    }
+
+    /**
+     * 递归查找所有路径，因为没有环的要求，所以不需要visit数组
+     *
+     * @param graph 图
+     * @param index 当前节点的序号
+     * @param path  记录当前路径
+     */
+    public void traverse(int[][] graph, int index, LinkedList<Integer> path) {
+        //添加当前节点到路径上
+        path.addLast(index);
+
+        int n = graph.length;
+        if (index == n - 1) {
+            //到达终点了，存储这条路径
+            res2.add(new LinkedList<Integer>(path));
+            //弹出最后的节点，找寻其他可能的路径
+            path.removeLast();
+            return;
+        }
+        //遍历所有的邻居结点
+        for (int v : graph[index]) {
+            traverse(graph, v, path);
+        }
+        //当前节点遍历完成，弹出
+        path.removeLast();
     }
 }

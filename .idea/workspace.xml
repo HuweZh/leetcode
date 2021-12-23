@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d8968f8-3824-41b8-9021-cff6d6fef68a" name="Default Changelist" comment="H810">
+    <list default="true" id="7d8968f8-3824-41b8-9021-cff6d6fef68a" name="Default Changelist" comment="1373">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/huhusw/middle/M113.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/huhusw/middle/M113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/huhusw/middle/M797.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/huhusw/middle/M797.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +74,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReviewBugLocalization-master/Tool_Where2Change/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Application.H460">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="H460" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huhusw.hard.H460" />
       <module name="leetcode" />
@@ -143,19 +156,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,6 +273,17 @@
       <workItem from="1634527596459" duration="7566000" />
       <workItem from="1634700337263" duration="1158000" />
       <workItem from="1634886829245" duration="1590000" />
+      <workItem from="1637053814008" duration="645000" />
+      <workItem from="1637463216619" duration="2537000" />
+      <workItem from="1638843141157" duration="4367000" />
+      <workItem from="1638939016970" duration="1072000" />
+      <workItem from="1639207521440" duration="410000" />
+      <workItem from="1639462065819" duration="3133000" />
+      <workItem from="1639638286404" duration="867000" />
+      <workItem from="1639709155676" duration="1463000" />
+      <workItem from="1639796426923" duration="3351000" />
+      <workItem from="1640059101014" duration="2279000" />
+      <workItem from="1640239515216" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1608567523096</created>
@@ -421,7 +432,105 @@
       <option name="project" value="LOCAL" />
       <updated>1634886867224</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="230+538">
+      <created>1637465211996</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1637465211996</updated>
+    </task>
+    <task id="LOCAL-00023" summary="95+96">
+      <created>1638844573582</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1638844573582</updated>
+    </task>
+    <task id="LOCAL-00024" summary="98">
+      <created>1638847058015</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1638847058015</updated>
+    </task>
+    <task id="LOCAL-00025" summary="99">
+      <created>1638939457460</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1638939457460</updated>
+    </task>
+    <task id="LOCAL-00026" summary="109">
+      <created>1639207909294</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1639207909294</updated>
+    </task>
+    <task id="LOCAL-00027" summary="173">
+      <created>1639462444787</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1639462444787</updated>
+    </task>
+    <task id="LOCAL-00028" summary="449">
+      <created>1639536622929</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1639536622929</updated>
+    </task>
+    <task id="LOCAL-00029" summary="669">
+      <created>1639638548347</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1639638548347</updated>
+    </task>
+    <task id="LOCAL-00030" summary="1008">
+      <created>1639710205203</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1639710205203</updated>
+    </task>
+    <task id="LOCAL-00031" summary="1038">
+      <created>1639796779065</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1639796779065</updated>
+    </task>
+    <task id="LOCAL-00032" summary="1382">
+      <created>1639797548473</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1639797548473</updated>
+    </task>
+    <task id="LOCAL-00033" summary="701">
+      <created>1639975749192</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1639975749192</updated>
+    </task>
+    <task id="LOCAL-00034" summary="1305">
+      <created>1639976895452</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1639976895452</updated>
+    </task>
+    <task id="LOCAL-00035" summary="1373">
+      <created>1640061261621</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1640061261621</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,9 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="不知道第几次提交" />
-    <MESSAGE value="调整项目的文件结构" />
-    <MESSAGE value="修改内部类" />
     <MESSAGE value="H810" />
     <MESSAGE value="再次提交" />
     <MESSAGE value="提交" />
@@ -454,7 +560,21 @@
     <MESSAGE value="236" />
     <MESSAGE value="331" />
     <MESSAGE value="113" />
-    <option name="LAST_COMMIT_MESSAGE" value="113" />
+    <MESSAGE value="230+538" />
+    <MESSAGE value="95+96" />
+    <MESSAGE value="98" />
+    <MESSAGE value="99" />
+    <MESSAGE value="109" />
+    <MESSAGE value="173" />
+    <MESSAGE value="449" />
+    <MESSAGE value="669" />
+    <MESSAGE value="1008" />
+    <MESSAGE value="1038" />
+    <MESSAGE value="1382" />
+    <MESSAGE value="701" />
+    <MESSAGE value="1305" />
+    <MESSAGE value="1373" />
+    <option name="LAST_COMMIT_MESSAGE" value="1373" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
