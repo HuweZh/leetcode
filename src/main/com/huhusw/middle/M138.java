@@ -20,7 +20,7 @@ public class M138 {
             cache.put(head,newNode);
             //递归拷贝当前节点的下一个和随机
             newNode.next = copyRandomList(head.next);
-            newNode.random = copyRandomList(head.random);
+//            newNode.random = copyRandomList(head.random);
         }
         return cache.get(head);
     }

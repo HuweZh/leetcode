@@ -22,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d8968f8-3824-41b8-9021-cff6d6fef68a" name="Default Changelist" comment="990">
+    <list default="true" id="7d8968f8-3824-41b8-9021-cff6d6fef68a" name="Default Changelist" comment="947 并查集">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/huhusw/middle/M138.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/huhusw/middle/M138.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.H460">
+  <component name="RunManager" selected="Application.M1020">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -100,6 +101,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.huhusw.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="M1020" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.middle.M1020" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huhusw.middle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,19 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huhusw.middle.Solution" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huhusw.middle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huhusw.Test" />
       <module name="leetcode" />
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.M1020" />
         <item itemvalue="Application.H460" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.M19" />
         <item itemvalue="Application.M165" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -287,14 +288,10 @@
       <workItem from="1640407796988" duration="2062000" />
       <workItem from="1640494764440" duration="1743000" />
       <workItem from="1640579273630" duration="861000" />
-      <workItem from="1640669679079" duration="390000" />
-    </task>
-    <task id="LOCAL-00001" summary="提交">
-      <created>1608567523096</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1608567523096</updated>
+      <workItem from="1640669679079" duration="1346000" />
+      <workItem from="1640752664343" duration="4091000" />
+      <workItem from="1641016262298" duration="1420000" />
+      <workItem from="1641101598747" duration="2235000" />
     </task>
     <task id="LOCAL-00002" summary="不知道第几次提交">
       <created>1619333655157</created>
@@ -583,7 +580,63 @@
       <option name="project" value="LOCAL" />
       <updated>1640580131474</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="128">
+      <created>1640670085810</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1640670085810</updated>
+    </task>
+    <task id="LOCAL-00044" summary="130">
+      <created>1640753690474</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1640753690474</updated>
+    </task>
+    <task id="LOCAL-00045" summary="200">
+      <created>1640756015835</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1640756015835</updated>
+    </task>
+    <task id="LOCAL-00046" summary="547">
+      <created>1640929831302</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1640929831302</updated>
+    </task>
+    <task id="LOCAL-00047" summary="648">
+      <created>1640930712291</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1640930712291</updated>
+    </task>
+    <task id="LOCAL-00048" summary="695 并查集">
+      <created>1641016590420</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1641016590420</updated>
+    </task>
+    <task id="LOCAL-00049" summary="721 并查集+hash表">
+      <created>1641020097573</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1641020097573</updated>
+    </task>
+    <task id="LOCAL-00050" summary="947 并查集">
+      <created>1641101904535</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1641101904536</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,14 +655,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="117" />
-    <MESSAGE value="236" />
-    <MESSAGE value="331" />
-    <MESSAGE value="113" />
-    <MESSAGE value="230+538" />
-    <MESSAGE value="95+96" />
-    <MESSAGE value="98" />
-    <MESSAGE value="99" />
     <MESSAGE value="109" />
     <MESSAGE value="173" />
     <MESSAGE value="449" />
@@ -627,7 +672,15 @@
     <MESSAGE value="785" />
     <MESSAGE value="886" />
     <MESSAGE value="990" />
-    <option name="LAST_COMMIT_MESSAGE" value="990" />
+    <MESSAGE value="128" />
+    <MESSAGE value="130" />
+    <MESSAGE value="200" />
+    <MESSAGE value="547" />
+    <MESSAGE value="648" />
+    <MESSAGE value="695 并查集" />
+    <MESSAGE value="721 并查集+hash表" />
+    <MESSAGE value="947 并查集" />
+    <option name="LAST_COMMIT_MESSAGE" value="947 并查集" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -716,6 +769,11 @@
           <url>file://$PROJECT_DIR$/src/main/com/huhusw/hard/H460.java</url>
           <line>9</line>
           <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/middle/M1020.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
