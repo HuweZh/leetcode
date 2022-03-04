@@ -72,4 +72,71 @@ public class M1049 {
         }
         return 0;
     }
+
+    /**
+     * 最后一块石头的重量
+     * 就是将石头分成两堆，两堆的重量相近
+     * 动规
+     *
+     * @param stones 石头
+     * @return 两堆的重量差
+     */
+    public int lastStoneWeightII2(int[] stones) {
+        //全部石头重量
+        int sum = 0;
+        for (int stone : stones) {
+            sum += stone;
+        }
+        //定义dp数组,dp[i][j]表示前i块石头是否能凑成重量为j，j最大定义为所有石头重量的一半
+        boolean[][] dp = new boolean[stones.length + 1][sum / 2 + 1];
+        //初始值，没有石头可供选择，也没有重量要求，此时为true，其余为false
+        dp[0][0] = true;
+        //遍历石头和重量
+        for (int i = 1; i <= stones.length; i++) {
+            for (int j = 0; j < sum / 2 + 1; j++) {
+                //当要求重量大于石头时，才能有选择，选择中有一个为true就是true
+                if (j >= stones[i - 1]) {
+                    dp[i][j] = dp[i - 1][j] | dp[i - 1][j - stones[i - 1]];
+                } else {
+                    //只能放弃
+                    dp[i][j] = dp[i - 1][j];
+                }
+            }
+        }
+        //找到这一堆能凑成的最大值并返回
+        for (int i = sum / 2; i >= 0; i--) {
+            if (dp[stones.length][i]) {
+                return sum - i - i;
+            }
+        }
+        return 0;
+    }
+
+    /**
+     * 本层状态只与上一层有关，可使用滚动数组压缩存储空间
+     *
+     * @param stones
+     * @return
+     */
+    public int lastStoneWeightII3(int[] stones) {
+        int sum = 0;
+        for (int stone : stones) {
+            sum += stone;
+        }
+        boolean[] dp = new boolean[sum / 2 + 1];
+        dp[0] = true;
+        for (int i = 1; i <= stones.length; i++) {
+            //倒叙更新数组
+            for (int j = sum / 2; j >= stones[i - 1]; j--) {
+                dp[j] = dp[j] | dp[j - stones[i - 1]];
+            }
+        }
+        int pos = 0;
+        for (int i = sum / 2; i >= 0; i--) {
+            if (dp[i]) {
+                return sum - i - i;
+            }
+        }
+        return 0;
+    }
 }
