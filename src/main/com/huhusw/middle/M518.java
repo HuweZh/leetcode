@@ -10,7 +10,43 @@ public class M518 {
     }
 
     /**
+     * 动规凑零钱
+     *
+     * @param amount 钱数
+     * @param coins  硬币
+     * @return 方案数
+     */
+    public int change3(int amount, int[] coins) {
+        //dp数组，dp[i][j]表示前i个硬币可以凑成j元的方案数
+        int[][] dp = new int[coins.length + 1][amount + 1];
+        //初始值
+        // dp[0][..]表示没有硬币，凑钱，初始值为0
+        // dp[..][0]表示硬币凑0元，方案数为1，一个都不选
+        for (int i = 0; i <= coins.length; i++) {
+            dp[i][0] = 1;
+        }
+        //遍历两层状态，更新数组
+        for (int i = 1; i <= coins.length; i++) {
+            for (int j = 1; j <= amount; j++) {
+                //只有钱数大于硬币的金额时，才可能会用到硬币
+                if (j >= coins[i - 1]) {
+                    //不选择此硬币和选择此硬币的两个方案加在一起构成当前状态
+                    //不选此硬币，继承上一层的状态
+                    //选择此硬币，就是在当前层选择状态
+                    dp[i][j] = dp[i - 1][j] + dp[i][j - coins[i - 1]];
+                } else {
+                    //直接继承
+                    dp[i][j] = dp[i - 1][j];
+                }
+            }
+        }
+        //返回结果
+        return dp[coins.length][amount];
+    }
+
+    /**
      * 凑零钱，得到所有可能的结果
+     * 状态压缩
      *
      * @param amount 钱数
      * @param coins  硬币种类
