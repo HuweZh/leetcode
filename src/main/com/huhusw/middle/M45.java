@@ -45,4 +45,31 @@ public class M45 {
         }
         // return 0;
     }
+
+    /**
+     * 局部贪心达到全局最优
+     *
+     * @param nums
+     * @return
+     */
+    public int jump2(int[] nums) {
+        if (nums.length == 1) {
+            return 0;
+        }
+        int step = 0;
+        int maxPos = 0;
+        int end = 0;
+        //为什么不访问最后一个元素
+        //因为end我们不访问最后一个元素，这是因为在访问最后一个元素之前，
+        // 我们的边界一定大于等于最后一个位置，否则就无法跳到最后一个位置了。
+        // 如果访问最后一个元素，在边界正好为最后一个位置的情况下，我们会增加一次「不必要的跳跃次数」
+        for (int i = 0; i < nums.length - 1; i++) {
+            maxPos = Math.max(maxPos, i + nums[i]);
+            if (i == end) {
+                end = maxPos;
+                step++;
+            }
+        }
+        return step;
+    }
 }
