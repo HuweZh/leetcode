@@ -1,4 +1,4 @@
-package com.huhusw.simple;
+package com.huhusw.middle;
 
 import com.huhusw.TreeNode;
 
