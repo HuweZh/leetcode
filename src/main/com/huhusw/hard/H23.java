@@ -167,4 +167,61 @@ public class H23 {
         }
         return newHead.next;
     }
+
+    /**
+     * 合并k个链表
+     *
+     * @param lists 链表集合
+     * @return 合并后的有序链表
+     */
+    public ListNode mergeKLists4(ListNode[] lists) {
+        //边界情况
+        if (lists.length == 0) {
+            return new ListNode().next;
+        }
+        //递归合并k个链表
+        return traverse(lists, 0, lists.length - 1);
+    }
+
+    /**
+     * 递归合并k个链表
+     *
+     * @param lists 链表
+     * @param start 上界
+     * @param end   下界
+     * @return 合并上界和下界的有序链表
+     */
+    public ListNode traverse(ListNode[] lists, int start, int end) {
+        //分割到最小单元
+        if (start == end) {
+            return lists[start];
+        }
+        //从中间分割，并分别构造
+        int mid = (start + end) / 2;
+        ListNode list1 = traverse(lists, start, mid);
+        ListNode list2 = traverse(lists, mid + 1, end);
+        //构造链表
+        ListNode head = new ListNode();
+        ListNode tail = head;
+        //遍历两个子链表
+        while (list1 != null && list2 != null) {
+            if (list1.val < list2.val) {
+                tail.next = list1;
+                list1 = list1.next;
+            } else {
+                tail.next = list2;
+                list2 = list2.next;
+            }
+            tail = tail.next;
+        }
+        //将剩余链表拼接
+        if (list1 == null) {
+            tail.next = list2;
+        }
+        if (list2 == null) {
+            tail.next = list1;
+        }
+        //返回
+        return head.next;
+    }
 }
