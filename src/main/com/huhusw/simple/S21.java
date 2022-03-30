@@ -49,4 +49,34 @@ public class S21 {
         //返回虚拟节点的下一个节点
         return head.next;
     }
+
+    /**
+     * 优化版
+     *
+     * @param list1
+     * @param list2
+     * @return
+     */
+    public ListNode mergeTwoLists2(ListNode list1, ListNode list2) {
+        ListNode head = new ListNode();
+        ListNode tail = head;
+        while (list1 != null && list2 != null) {
+            if (list1.val < list2.val) {
+                tail.next = list1;
+                list1 = list1.next;
+            } else {
+                tail.next = list2;
+                list2 = list2.next;
+            }
+            tail = tail.next;
+        }
+        //循环一遍以后，将不为空的链表的剩余部分拼到后面，不需要遍历
+        if (list1 == null) {
+            tail.next = list2;
+        }
+        if (list2 == null) {
+            tail.next = list1;
+        }
+        return head.next;
+    }
 }
