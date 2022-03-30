@@ -37,4 +37,28 @@ public class S22 {
         }
         return slow;
     }
+
+    /**
+     * 双指针找到倒数第k个节点
+     *
+     * @param head
+     * @param k
+     * @return
+     */
+    public ListNode getKthFromEnd3(ListNode head, int k) {
+        //定义两个指针
+        ListNode p1 = head;
+        ListNode p2 = head;
+        int count = 1;
+        //单次遍历链表
+        while (p1.next != null) {
+            p1 = p1.next;
+            count++;
+            if (count > k) {
+                p2 = p2.next;
+            }
+        }
+        //返回慢指针
+        return p2;
+    }
 }
