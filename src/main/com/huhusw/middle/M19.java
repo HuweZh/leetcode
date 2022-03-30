@@ -55,4 +55,37 @@ public class M19 {
             prev.next = prev.next.next;
         }
     }
+
+    /**
+     * 移出倒数第n位的节点
+     *
+     * @param head 头结点
+     * @param n    倒数第n位
+     * @return 移除后的链表
+     */
+    public ListNode removeNthFromEnd2(ListNode head, int n) {
+        //虚拟一个头结点，也是返回的结果
+        ListNode res = new ListNode();
+        //结果链表的尾结点
+        ListNode tail = res;
+        //快慢指针
+        ListNode fast = head;
+        ListNode slow = head;
+        //快指针先跑
+        for (int i = 0; i < n; i++) {
+            fast = fast.next;
+        }
+        //快慢一起
+        while (fast != null) {
+            fast = fast.next;
+            //并更新结果
+            tail.next = slow;
+            slow = slow.next;
+            tail = tail.next;
+        }
+        //跳过删除的节点
+        tail.next = slow.next;
+        // System.out.println(slow.val);
+        return res.next;
+    }
 }
