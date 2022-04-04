@@ -52,4 +52,26 @@ public class M5 {
         // 返回符合题意的子串
         return s.substring(left + 1, right);
     }
+
+    public String longestPalindrome2(String s) {
+        String res = "";
+        for (int i = 0; i < s.length(); i++) {
+            String s1 = getSub(s, i, i);
+            String s2 = getSub(s, i, i + 1);
+            res = res.length() > s1.length() ? res : s1;
+            res = res.length() > s2.length() ? res : s2;
+        }
+        return res;
+    }
+
+    public String getSub(String str, int left, int right) {
+        while (left >= 0 && right < str.length()) {
+            if (str.charAt(left) != str.charAt(right)) {
+                break;
+            }
+            left--;
+            right++;
+        }
+        return str.substring(left + 1, right);
+    }
 }
