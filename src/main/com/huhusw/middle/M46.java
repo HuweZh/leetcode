@@ -1,6 +1,7 @@
 package com.huhusw.middle;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -54,6 +55,33 @@ public class M46 {
                 stem.remove(stem.size() - 1);
                 visited[i] = false;
             }
+        }
+    }
+
+    List<List<Integer>> res2 = new LinkedList<>();
+    LinkedList<Integer> temp = new LinkedList<>();
+    boolean[] visited2;
+
+    public List<List<Integer>> permute2(int[] nums) {
+        visited = new boolean[nums.length];
+        recall(nums);
+        return res;
+    }
+
+    public void recall(int[] nums) {
+        if (temp.size() == nums.length) {
+            res.add(new LinkedList<Integer>(temp));
+            return;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (visited[i]) {
+                continue;
+            }
+            visited[i] = true;
+            temp.addLast(nums[i]);
+            recall(nums);
+            temp.removeLast();
+            visited[i] = false;
         }
     }
 }
