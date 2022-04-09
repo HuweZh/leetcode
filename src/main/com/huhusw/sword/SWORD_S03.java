@@ -23,4 +23,21 @@ public class SWORD_S03 {
         }
         return 0;
     }
+
+    /**
+     * 散列表
+     * @param nums
+     * @return
+     */
+    public int findRepeatNumber2(int[] nums) {
+        int n = nums.length;
+        int[] hash = new int[n];
+        for (int i = 0; i < n; i++) {
+            hash[nums[i]]++;
+            if (hash[nums[i]] == 2) {
+                return nums[i];
+            }
+        }
+        return 0;
+    }
 }
