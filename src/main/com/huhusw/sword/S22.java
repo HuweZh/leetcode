@@ -61,4 +61,17 @@ public class S22 {
         //返回慢指针
         return p2;
     }
+
+    public ListNode getKthFromEnd2(ListNode head, int k) {
+        ListNode fast = head;
+        ListNode slow = head;
+        for (int i = 0; i < k; i++) {
+            fast = fast.next;
+        }
+        while (fast != null) {
+            fast = fast.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
 }
