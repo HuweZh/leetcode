@@ -23,7 +23,12 @@ public class S206 {
 
     }
 
-
+    /**
+     * 迭代实现反转链表
+     *
+     * @param head
+     * @return
+     */
     public ListNode reverseList(ListNode head) {
         ListNode pre = null;
         ListNode cur = head;
@@ -34,5 +39,21 @@ public class S206 {
             cur = listNode;
         }
         return pre;
+    }
+
+    /**
+     * 递归实现反转链表
+     *
+     * @param head
+     * @return
+     */
+    public ListNode reverseList2(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode newHead = reverseList2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return head;
     }
 }
