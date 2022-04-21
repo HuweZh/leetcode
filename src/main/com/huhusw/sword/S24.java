@@ -31,4 +31,20 @@ public class S24 {
         //返回结果
         return newHead;
     }
+
+    public ListNode reverseList2(ListNode head) {
+        //反转到最后一个节点，直接返回
+        if (head == null) {
+            return head;
+        }
+        ListNode pre = null;
+        ListNode cur = head;
+        while(cur != null){
+            ListNode nex = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = nex;
+        }
+        return pre;
+    }
 }
