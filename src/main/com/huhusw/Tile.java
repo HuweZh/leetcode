@@ -13,13 +13,14 @@ public class Tile {
      * 铺砖
      * 给面积为n*k的地板铺1*k的砖，返回方案数
      * 建议实现，还没有考虑边界情况
+     *
      * @param n
      * @param k
      * @return
      */
     public int putTile(int n, int k) {
         //dp数组，dp[i]表示i*k的面积被覆盖的方案数
-        int[] dp = new int[n+1];
+        int[] dp = new int[n + 1];
         //小于k的情况下，只有一种方案，竖着铺
         for (int i = 1; i < k; i++) {
             dp[i] = 1;
