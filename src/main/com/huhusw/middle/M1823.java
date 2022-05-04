@@ -1,6 +1,8 @@
 package com.huhusw.middle;
 
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game/
@@ -62,5 +64,27 @@ public class M1823 {
             }
         }
         return res + 1;
+    }
+
+    /**
+     * 队列模拟
+     * 好像时间复杂度更大
+     *
+     * @param n
+     * @param k
+     * @return
+     */
+    public int findTheWinner2(int n, int k) {
+        Queue<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < n; i++) {
+            queue.offer(i + 1);
+        }
+        while (queue.size() != 1) {
+            for (int i = 1; i < k; i++) {
+                queue.offer(queue.poll());
+            }
+            queue.poll();
+        }
+        return queue.peek();
     }
 }
