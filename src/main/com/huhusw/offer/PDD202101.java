@@ -1,5 +1,9 @@
 package com.huhusw.offer;
 
+import java.awt.image.AreaAveragingScaleFilter;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -82,6 +86,31 @@ public class PDD202101 {
             }
         }
         return true;
+    }
+
+    /**
+     * 简单版本
+     * 不需要删除相同的字符，相同字符相减为0
+     * 只需要将字符数组进行排序，也能实现贪心
+     *
+     * @throws Exception
+     */
+    public static void simple() throws Exception {
+        //输入字符串长度和两个字符串
+//        Scanner sc = new Scanner(System.in);
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
+        String s1 = br.readLine();
+        String s2 = br.readLine();
+        char[] c1 = s1.toCharArray();
+        char[] c2 = s2.toCharArray();
+        Arrays.sort(c1);
+        Arrays.sort(c2);
+        int res = 0;
+        for (int i = 0; i < n; i++) {
+            res += Math.abs(c1[i] - c2[i]);
+        }
+        System.out.println(res);
     }
 }
 
