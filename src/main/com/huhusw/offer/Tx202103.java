@@ -16,20 +16,20 @@ import java.util.Stack;
  * 其余的情况，弹栈计算
  */
 
-/**
- * 定义一个node，存储元素值和连续出现的次数
- */
-class Node {
-    int val;
-    int time;
-
-    public Node(int val, int time) {
-        this.val = val;
-        this.time = time;
-    }
-}
 
 public class Tx202103 {
+    /**
+     * 定义一个node，存储元素值和连续出现的次数
+     */
+    static class Node {
+        int val;
+        int time;
+
+        public Node(int val, int time) {
+            this.val = val;
+            this.time = time;
+        }
+    }
 
     public static void main(String[] args) throws Exception {
 //        System.out.println(cn2(1000005));
