@@ -52,7 +52,6 @@ public class H354 {
      * 如果当前牌点数较大没有可以放置的堆，则新建一个堆，把这张牌放进去。
      * 如果当前牌有多个堆可供选择，则选择最左边的堆放置。
      *
-     *
      * @param nums
      * @return
      */
@@ -87,5 +86,68 @@ public class H354 {
         }
         //牌堆数量就是最长递增子序列的长度
         return piles;
+    }
+
+    /**
+     * 贪心+二分
+     * 其实本质也是扑克牌算法
+     * 但是会好理解一点
+     * dp[i]表示长度为i的子序列中第i位的最小值为dp[i]
+     * 对所有的信封按照宽度进行排序，那么就相当于找长度的最大递增子序列
+     *
+     * @param envelopes
+     * @return
+     */
+    public int maxEnvelopes2(int[][] envelopes) {
+        //边界情况
+        if (envelopes.length == 0) {
+            return 0;
+        }
+        //对信封排序，宽度升序，长度降序
+        Arrays.sort(envelopes, new Comparator<int[]>() {
+            public int compare(int[] o1, int[] o2) {
+                if (o1[0] != o2[0]) {
+                    return o1[0] - o2[0];
+                } else {
+                    return o2[1] - o1[1];
+                }
+            }
+        });
+        //定义dp数组 dp[i]表示长度为i的子序列中第i位的最小值为dp[i]
+        int n = envelopes.length;
+        int[][] dp = new int[n + 1][2];
+        //初始值
+        dp[1] = envelopes[0];
+        //结果值
+        int len = 1;
+        //遍历数组
+        for (int i = 1; i < n; i++) {
+            //如果大于，直接进行追加
+            //否则，二分检索dp数组中最后一个小于当前元素的索引，更新其下一位
+            if (dp[len][1] < envelopes[i][1]) {
+                dp[++len] = envelopes[i];
+            } else {
+                //左右边界，闭区间
+                int l = 1;
+                int r = len;
+                //定位的索引，初始值为0，若找不到值，更新第一位
+                int pos = 0;
+                //二分检索
+                while (l <= r) {
+                    int mid = (l + r) >> 1;
+                    //当前元素大于dp的中位，更新左边界和索引值
+                    //否则更新右边界
+                    if (dp[mid][1] < envelopes[i][1]) {
+                        pos = mid;
+                        l = mid + 1;
+                    } else {
+                        r = mid - 1;
+                    }
+                }
+                //更新dp数组
+                dp[pos + 1] = envelopes[i];
+            }
+        }
+        return len;
     }
 }
