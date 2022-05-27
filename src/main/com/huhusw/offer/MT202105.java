@@ -3,6 +3,7 @@ package com.huhusw.offer;
 import java.util.Scanner;
 
 /**
+ * https://www.nowcoder.com/questionTerminal/10661f4d02564ba686bcba4645e0a029
  * 烤蛋糕
  * 一家店铺每天烤n个蛋糕，现在烤了m个
  * 客人要求，想要最轻和最重的蛋糕，且重量恰好为a和b
