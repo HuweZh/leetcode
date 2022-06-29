@@ -63,4 +63,34 @@ public class TX03 {
         }
         if (state == 0) res++;
     }
+
+    /**
+     * 动态规划解题
+     * 设置dp数组，dp[i]表示前i天工作或者锻炼的最大天数
+     * 当天可以工作时，需要在前几天的休息和锻炼的最大值上加1
+     * 当天可以锻炼时，需要在前几天的锻炼和休息的最大值上加1
+     * 当天不能休息和锻炼时，需要更新休息对应的最大值
+     *
+     * @param a
+     * @param b
+     * @param n
+     */
+    private static void cal(int[] a, int[] b, int n) {
+        int[][] dp = new int[n + 1][3];
+        dp[0][0] = dp[0][1] = dp[0][2] = 0;
+        for (int i = 0; i < n; i++) {
+            //可以工作
+            if (a[i] == 1) {
+                dp[i + 1][1] = Math.max(dp[i][0], dp[i][2]) + 1;
+            }
+            //可以锻炼
+            if (b[i] == 1) {
+                dp[i + 1][2] = Math.max(dp[i][0], dp[i][1]) + 1;
+            }
+            //更新状态
+            dp[i + 1][0] = Math.max(dp[i][0], Math.max(dp[i][1], dp[i][2]));
+        }
+        //结果
+        int ans = n - Math.max(dp[n][0], Math.max(dp[n][1], dp[n][2]));
+    }
 }
