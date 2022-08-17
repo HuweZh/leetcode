@@ -25,6 +25,7 @@ public class S086 {
             Arrays.fill(flag[i], true);
         }
         //动规计算是否能构成回文串
+        //因为先使用的是i+1行的数据，所以i从后往前遍历，j同理
         for (int i = n - 1; i >= 0; i--) {
             for (int j = i + 1; j < n; j++) {
                 //计算是否为回文字符串
