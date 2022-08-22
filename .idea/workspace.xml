@@ -22,7 +22,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d8968f8-3824-41b8-9021-cff6d6fef68a" name="Default Changelist" comment="剑指offer突击版">
+    <list default="true" id="7d8968f8-3824-41b8-9021-cff6d6fef68a" name="Default Changelist" comment="一次提交">
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/BY/Z01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/BY/Z02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/BY/Z03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/BY/Z04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/LEN/Z01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/LEN/Z02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/MaxQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/Memo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/SelfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/SeqCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/WY/Z01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/WY/Z02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/WY/Z03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/WY/Z04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/nio/MaxQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/nio/MaxQueueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/nio/NIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/huhusw/shudu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +106,7 @@
       <recent name="com.huhusw.simple" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.S012">
+  <component name="RunManager" selected="Application.Z04 (1)">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -100,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huhusw.LRU" />
+    <configuration name="Z02 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.BY.Z02" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huhusw.*" />
+          <option name="PATTERN" value="com.huhusw.BY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huhusw.sword2offer.S003" />
+    <configuration name="Z03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.BY.Z03" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huhusw.sword2offer.*" />
+          <option name="PATTERN" value="com.huhusw.BY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S010" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huhusw.sword2offer.S010" />
+    <configuration name="Z03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.WY.Z03" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huhusw.sword2offer.*" />
+          <option name="PATTERN" value="com.huhusw.WY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huhusw.sword2offer.S012" />
+    <configuration name="Z04 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.BY.Z04" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huhusw.sword2offer.*" />
+          <option name="PATTERN" value="com.huhusw.BY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeqCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huhusw.SeqCount" />
+    <configuration name="Z04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huhusw.WY.Z04" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huhusw.*" />
+          <option name="PATTERN" value="com.huhusw.WY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.S012" />
-        <item itemvalue="Application.S010" />
-        <item itemvalue="Application.S003" />
-        <item itemvalue="Application.SeqCount" />
-        <item itemvalue="Application.LRU" />
+        <item itemvalue="Application.Z04 (1)" />
+        <item itemvalue="Application.Z03 (1)" />
+        <item itemvalue="Application.Z02 (1)" />
+        <item itemvalue="Application.Z04" />
+        <item itemvalue="Application.Z03" />
       </list>
     </recent_temporary>
   </component>
@@ -378,175 +398,11 @@
       <workItem from="1658197307683" duration="3738000" />
       <workItem from="1658220372803" duration="502000" />
       <workItem from="1658386907804" duration="1215000" />
-      <workItem from="1660366367027" duration="855000" />
-    </task>
-    <task id="LOCAL-00190" summary="713 乘积小于k的子数组 暴力枚举">
-      <created>1651717298638</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1651717298638</updated>
-    </task>
-    <task id="LOCAL-00191" summary="713 乘积小于k的子数组 滑动窗口">
-      <created>1651718051324</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1651718051324</updated>
-    </task>
-    <task id="LOCAL-00192" summary="713 乘积小于k的子数组 二分查找">
-      <created>1651719239348</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1651719239348</updated>
-    </task>
-    <task id="LOCAL-00193" summary="剑指Offer31 压栈弹栈顺序是否正确 栈模拟">
-      <created>1651720373829</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1651720373829</updated>
-    </task>
-    <task id="LOCAL-00194" summary="剑指Offer37 序列化与反序列化二叉树 前序遍历">
-      <created>1651721569701</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1651721569701</updated>
-    </task>
-    <task id="LOCAL-00195" summary="433 最小变异次数 广度优先遍历">
-      <created>1651890283736</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1651890283736</updated>
-    </task>
-    <task id="LOCAL-00196" summary="剑指Offer38 字符串的排列 递归回溯">
-      <created>1651893418548</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1651893418548</updated>
-    </task>
-    <task id="LOCAL-00197" summary="企业真题 腾讯2021 有效序列的数量 单调栈解题">
-      <created>1652107370703</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1652107370703</updated>
-    </task>
-    <task id="LOCAL-00198" summary="企业真题 PDD2021 字符转化的最小代价 贪心">
-      <created>1652152794742</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1652152794742</updated>
-    </task>
-    <task id="LOCAL-00199" summary="企业真题 PDD2021 字符转化的最小代价 简化代码版本的贪心">
-      <created>1652153124734</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1652153124734</updated>
-    </task>
-    <task id="LOCAL-00200" summary="企业真题 PDD2021 求和计算 前缀和+hash">
-      <created>1652160293623</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1652160293623</updated>
-    </task>
-    <task id="LOCAL-00201" summary="300 最长递增子序列 贪心+二分">
-      <created>1652415475187</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1652415475187</updated>
-    </task>
-    <task id="LOCAL-00202" summary="354 信封套娃 贪心+二分">
-      <created>1652417080095</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1652417080095</updated>
-    </task>
-    <task id="LOCAL-00203" summary="企业真题 阿里巴巴2021 二维最长递增子序列 贪心+二分">
-      <created>1652417758466</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1652417758466</updated>
-    </task>
-    <task id="LOCAL-00204" summary="企业真题 阿里巴巴202102 数学问题 计算递推公式，并带入">
-      <created>1652503122174</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1652503122174</updated>
-    </task>
-    <task id="LOCAL-00205" summary="企业真题 阿里巴巴202103 二叉树的构造方案数 动规">
-      <created>1652753627921</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1652753627921</updated>
-    </task>
-    <task id="LOCAL-00206" summary="企业真题 阿里巴巴202104 对称飞行器，遍历迷宫 深度优先搜索">
-      <created>1652761809805</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1652761809805</updated>
-    </task>
-    <task id="LOCAL-00207" summary="企业真题 阿里巴巴202105 知识竞赛 排序最优">
-      <created>1652843084098</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1652843084098</updated>
-    </task>
-    <task id="LOCAL-00208" summary="企业真题 阿里巴巴202106 吃糖果，0-1背包，动规">
-      <created>1653017483781</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1653017483781</updated>
-    </task>
-    <task id="LOCAL-00209" summary="企业真题 阿里巴巴202107 方案总数，从起点到终点，循环暴力">
-      <created>1653098712154</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1653098712154</updated>
-    </task>
-    <task id="LOCAL-00210" summary="企业真题 阿里巴巴202108 连续子段个数，找到满足题意的子段的个数 滑动窗口">
-      <created>1653100575325</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1653100575325</updated>
-    </task>
-    <task id="LOCAL-00211" summary="企业真题 阿里巴巴202109 两个序列，转化成最长上升子序列的问题">
-      <created>1653101881539</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1653101881539</updated>
-    </task>
-    <task id="LOCAL-00212" summary="企业真题 腾讯202101 朋友圈，对指定用户的圈子进行圈子划定 并查集">
-      <created>1653186816863</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1653186816863</updated>
-    </task>
-    <task id="LOCAL-00213" summary="企业真题 腾讯202102 第k小的子串，获取所有子串中第k小的子串 大顶堆加循环优化">
-      <created>1653188642644</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1653188642644</updated>
+      <workItem from="1660366367027" duration="10043000" />
+      <workItem from="1660538839916" duration="9536000" />
+      <workItem from="1660804768890" duration="3823000" />
+      <workItem from="1660972292431" duration="8374000" />
+      <workItem from="1661060306464" duration="10720000" />
     </task>
     <task id="LOCAL-00214" summary="企业真题 美团202101 淘汰分数 排序+优先队列或者二分查找">
       <created>1653279678868</created>
@@ -723,7 +579,175 @@
       <option name="project" value="LOCAL" />
       <updated>1658201776580</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="剑指offer突击版">
+      <created>1660367952356</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1660367952356</updated>
+    </task>
+    <task id="LOCAL-00240" summary="剑指offer突击版">
+      <created>1660368912389</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1660368912389</updated>
+    </task>
+    <task id="LOCAL-00241" summary="剑指offer突击版">
+      <created>1660370736314</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1660370736314</updated>
+    </task>
+    <task id="LOCAL-00242" summary="剑指offer突击版">
+      <created>1660450927588</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1660450927588</updated>
+    </task>
+    <task id="LOCAL-00243" summary="剑指offer突击版">
+      <created>1660451857674</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1660451857674</updated>
+    </task>
+    <task id="LOCAL-00244" summary="剑指offer突击版">
+      <created>1660453696201</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1660453696201</updated>
+    </task>
+    <task id="LOCAL-00245" summary="剑指offer突击版">
+      <created>1660455861356</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1660455861356</updated>
+    </task>
+    <task id="LOCAL-00246" summary="剑指offer突击版">
+      <created>1660539944511</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1660539944512</updated>
+    </task>
+    <task id="LOCAL-00247" summary="剑指offer突击版">
+      <created>1660541698640</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1660541698640</updated>
+    </task>
+    <task id="LOCAL-00248" summary="剑指offer突击版">
+      <created>1660542332813</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1660542332813</updated>
+    </task>
+    <task id="LOCAL-00249" summary="剑指offer突击版">
+      <created>1660543120511</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1660543120511</updated>
+    </task>
+    <task id="LOCAL-00250" summary="剑指offer突击版">
+      <created>1660618857635</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1660618857635</updated>
+    </task>
+    <task id="LOCAL-00251" summary="剑指offer突击版">
+      <created>1660620548250</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1660620548250</updated>
+    </task>
+    <task id="LOCAL-00252" summary="剑指offer突击版">
+      <created>1660715426198</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1660715426198</updated>
+    </task>
+    <task id="LOCAL-00253" summary="剑指offer突击版">
+      <created>1660716864408</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1660716864408</updated>
+    </task>
+    <task id="LOCAL-00254" summary="剑指offer突击版">
+      <created>1660805302620</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1660805302620</updated>
+    </task>
+    <task id="LOCAL-00255" summary="剑指offer突击版">
+      <created>1660807069521</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1660807069521</updated>
+    </task>
+    <task id="LOCAL-00256" summary="剑指offer突击版">
+      <created>1660878181568</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1660878181568</updated>
+    </task>
+    <task id="LOCAL-00257" summary="剑指offer突击版">
+      <created>1660878669434</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1660878669434</updated>
+    </task>
+    <task id="LOCAL-00258" summary="剑指offer突击版">
+      <created>1660879576918</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1660879576918</updated>
+    </task>
+    <task id="LOCAL-00259" summary="剑指offer突击版">
+      <created>1660972520412</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1660972520412</updated>
+    </task>
+    <task id="LOCAL-00260" summary="剑指offer突击版">
+      <created>1661060457933</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1661060457934</updated>
+    </task>
+    <task id="LOCAL-00261" summary="剑指offer突击版">
+      <created>1661061306736</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1661061306736</updated>
+    </task>
+    <task id="LOCAL-00262" summary="剑指offer突击版">
+      <created>1661062410324</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1661062410324</updated>
+    </task>
+    <option name="localTasksCounter" value="263" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -734,7 +758,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -742,7 +778,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="企业真题 阿里巴巴202106 吃糖果，0-1背包，动规" />
     <MESSAGE value="企业真题 阿里巴巴202107 方案总数，从起点到终点，循环暴力" />
     <MESSAGE value="企业真题 阿里巴巴202108 连续子段个数，找到满足题意的子段的个数 滑动窗口" />
     <MESSAGE value="企业真题 阿里巴巴202109 两个序列，转化成最长上升子序列的问题" />
@@ -767,7 +802,8 @@
     <MESSAGE value="腾讯 放假 在放假期间工作和锻炼的最大天数 动态规划" />
     <MESSAGE value="LRU" />
     <MESSAGE value="剑指offer突击版" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer突击版" />
+    <MESSAGE value="一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="一次提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -797,6 +833,26 @@
           <line>21</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/LEN/Z02.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/BY/Z02.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/BY/Z03.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/huhusw/BY/Z04.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IllegalMonitorStateException" package="java.lang" />
           <option name="timeStamp" value="4" />
@@ -805,7 +861,9 @@
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="com.huhusw.LEN.Z02$Trie" memberName="children" />
         <PinnedItemInfo parentTag="com.huhusw.ListNode" memberName="next" />
+        <PinnedItemInfo parentTag="com.huhusw.LEN.Z02$Trie" memberName="str" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
