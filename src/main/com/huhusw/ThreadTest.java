@@ -1,7 +1,5 @@
 package com.huhusw;
 
-import com.sun.xml.internal.bind.v2.model.annotation.RuntimeAnnotationReader;
-
 import java.util.concurrent.TimeUnit;
 
 public class ThreadTest {
@@ -35,6 +33,7 @@ public class ThreadTest {
             wait();
         }
     }
+
     private synchronized void waitC() throws InterruptedException {
         while (index != 0) {
             wait();
@@ -62,15 +61,13 @@ public class ThreadTest {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                if (index == 0) {
-                    System.out.println("线程A工作");
-                    try {
-                        TimeUnit.MILLISECONDS.sleep(3000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    threadTest.notifyAllThread();
+                System.out.println("线程A工作");
+                try {
+                    TimeUnit.MILLISECONDS.sleep(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
+                threadTest.notifyAllThread();
             }
         }
     }
@@ -90,15 +87,13 @@ public class ThreadTest {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                if (index == 1) {
-                    System.out.println("线程B工作");
-                    try {
-                        TimeUnit.MILLISECONDS.sleep(3000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    threadTest.notifyAllThread();
+                System.out.println("线程B工作");
+                try {
+                    TimeUnit.MILLISECONDS.sleep(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
+                threadTest.notifyAllThread();
             }
         }
     }
@@ -118,15 +113,13 @@ public class ThreadTest {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                if (index == 2) {
-                    System.out.println("线程C工作");
-                    try {
-                        TimeUnit.MILLISECONDS.sleep(3000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    threadTest.notifyAllThread();
+                System.out.println("线程C工作");
+                try {
+                    TimeUnit.MILLISECONDS.sleep(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
+                threadTest.notifyAllThread();
             }
         }
     }
