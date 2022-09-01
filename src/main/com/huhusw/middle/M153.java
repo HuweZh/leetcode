@@ -8,7 +8,7 @@ public class M153 {
     /**
      * 对一个升序数组进行旋转，将若干个元素旋转到数组的后方
      * 找到这个数组中的最小值
-     *
+     * <p>
      * 这个数组有一个特点，对于第一个元素来说，最小值左边的元素都是大于等于这个值，右边则相反
      * 对于最后一个元素也是如此
      * 所以利用这个特点可以进行二分查找
@@ -40,6 +40,27 @@ public class M153 {
             }
         }
         //直接返回左边界对应值
+        return nums[left];
+    }
+
+    /**
+     * 实时更新基准值，保证基准是在查找过程中逐步变小
+     *
+     * @param nums
+     * @return
+     */
+    public int findMin2(int[] nums) {
+        int left = 0;
+        int right = nums.length - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            //基准值为右侧边界
+            if (nums[mid] < nums[right]) {
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
+        }
         return nums[left];
     }
 }
