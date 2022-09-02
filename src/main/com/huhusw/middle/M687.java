@@ -44,4 +44,42 @@ public class M687 {
         //将当前节点的子树最大长度返回
         return Math.max(currLeft, currRight);
     }
+
+    /**
+     * 再次回头做题
+     */
+    int ans = Integer.MIN_VALUE;
+    public int longestUnivaluePath2(TreeNode root) {
+        if(root == null){
+            return 0;
+        }
+        dfs(root);
+        return ans==Integer.MIN_VALUE?0:ans-1;
+    }
+    public int[] dfs2(TreeNode root){
+        if(root.left == null && root.right == null){
+            return new int[]{root.val,1};
+        }
+        int[] left =null;
+        int[] right =null;
+        if(root.left!=null){
+            left = dfs2(root.left);
+        }
+        if(root.right != null){
+            right = dfs2(root.right);
+        }
+        int leftVal = 1;
+        int rightVal = 1;
+        int res = 1;
+        if(left!=null&&root.val == left[0]){
+            res += left[1];
+            leftVal += left[1];
+        }
+        if(right != null &&root.val == right[0]){
+            res += right[1];
+            rightVal += right[1];
+        }
+        ans = Math.max(ans,res);
+        return new int[]{root.val,Math.max(leftVal,rightVal)};
+    }
 }
