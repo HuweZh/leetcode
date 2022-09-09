@@ -1,11 +1,14 @@
 package com.huhusw;
 
+import java.util.ArrayList;
+
 public class Node {
     public int val;
     public Node left;
     public Node right;
     public Node next;
     public Node random;
+    public ArrayList<Node> children;
 
     public Node() {
     }
