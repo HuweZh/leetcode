@@ -40,4 +40,23 @@ public class M128 {
         //返回
         return res;
     }
+
+    public int longestConsecutive2(int[] nums) {
+        HashSet<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
+        }
+        int res = 0;
+        for (int num : set) {
+            if (!set.contains(num - 1)) {
+                int count = 0;
+                while (set.contains(num)) {
+                    num++;
+                    count++;
+                }
+                res = Math.max(count, res);
+            }
+        }
+        return res;
+    }
 }
