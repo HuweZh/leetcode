@@ -1,5 +1,7 @@
 package com.huhusw.middle;
 
+import java.util.ArrayList;
+
 /**
  * 可能的等式，在给定的关系中，判断是否全部的关系都能成立
  */
@@ -122,5 +124,54 @@ public class M990 {
             }
             return i;
         }
+    }
+
+
+    class UF2 {
+        int[] parent;
+
+        UF2() {
+            parent = new int[26];
+            for (int i = 0; i < 26; i++) {
+                parent[i] = i;
+            }
+        }
+
+        public int find(int x) {
+            while (parent[x] != x) {
+                parent[x] = parent[parent[x]];
+                x = parent[x];
+            }
+            return x;
+        }
+
+        public void union(int x, int y) {
+            int rootX = find(x);
+            int rootY = find(y);
+            if (rootX == rootY) {
+                return;
+            }
+            parent[rootX] = rootY;
+        }
+    }
+
+    public boolean equationsPossible2(String[] equations) {
+        UF2 uf = new UF2();
+        ArrayList<String> notEqual = new ArrayList<>();
+        for (String equation : equations) {
+            if (equation.charAt(1) == '!') {
+                notEqual.add(equation);
+            } else {
+                uf.union(equation.charAt(0) - 'a', equation.charAt(3) - 'a');
+            }
+        }
+        for (String s : notEqual) {
+            int x = uf.find(s.charAt(0) - 'a');
+            int y = uf.find(s.charAt(3) - 'a');
+            if (x == y) {
+                return false;
+            }
+        }
+        return true;
     }
 }
